@@ -104,9 +104,10 @@
         <td>Stahler</td>
         <td>Humans</td>
         </tr>
-        
+       
       </tbody>
   </table>
+   <br>
     <a href="./Artists.html"> See all artists...</a>
   <br>
  <!----------------------------------------------------------------------------------------------------------------> 
@@ -114,7 +115,7 @@
   <h2>
     Genres
   </h2>
-  <ul>
+  <ol>
     <li><a href="#animal">Animals</a></li>
     <li>Family</li>
     <li>Food</li>
@@ -123,15 +124,17 @@
     <li>Technology</li>
     <li>Pop culture</li>
     <li>Office</li>
-  </ul>
+  </ol>
  <!----------------------------------------------------------------------------------------------------------------> 
 <!----------------------------------------------------------------------------------------------------------------> 
-  <h2>
-    Select Year
+  
+  <!--<form action="/go.html">
+   <h2>
+    <label for="year">Select Year</label>
+    <input type="Number" list="years" id="year" name="year" min="2000" max="2022"  required>
+     <input type="submit" value="Go">
   </h2>
-  <form action="/go.html">
-   <label for="year"></label>
-   <input type="Number" list="years" id="year" name="year" min="2000" max="2022"  required>
+   
     
     <datalist id="years">
       <option value="2000"></option>
@@ -144,10 +147,10 @@
       <option value="2021"></option>
     
     </datalist>
-    <input type="submit" value="Go">
+     </form>-->
  <!----------------------------------------------------------------------------------------------------------------> 
  <!----------------------------------------------------------------------------------------------------------------> 
-  </form>
+ 
   <form action="go.html">
     <a href="./go.html"></a>
   </form>
@@ -195,6 +198,10 @@
       <form action="/ThankYou.html">
         <label for="emailID">Email ID*</label>
         <input type="text" id="emailID" required>
+        <br>
+        <br>
+        <label for="DOB">Year of Birth*</label>
+        <input type="Number" id="DOB" name="year" min="1900" max="2022"  required>
         <br>
         <br>
         <label for="Username">Username*</label>
